@@ -1,0 +1,90 @@
+.App {
+  /* text-align: center; */
+  padding: 15px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #106CC8;
+  display: flex;
+  padding: 15px;
+  flex-direction: column;
+  /*align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white; */
+}
+
+.search{
+  height: 25px;
+  width: 25%;
+}
+
+.select{
+  width: 50%;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.col-lg-6{
+  width: 50%;
+  margin: 0px;
+}
+.right{
+  text-align: right;
+}
+.price{
+  color: #FF9800;
+  font-weight: 500;
+}
+.delivery{
+  color: #1770CA;
+  font-weight: 500;
+  text-decoration: underline;
+}
+.furniture-style{
+  color: #106CC8;
+}
+.product-name{
+  font-size: large;
+}
+.row{
+  display: flex;
+}
+.text-left{
+  margin-left: 5px;
+}
+.card {
+  background: #FFF;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  width: 50%;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.card-container {
+  padding: 20px;
+}
